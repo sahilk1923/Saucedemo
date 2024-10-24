@@ -37,8 +37,6 @@ sauce_demo_automation/
 │   ├── __init__.py
 │   └── driver.py                # WebDriver setup and teardown
 │
-├── reports/                     # Test reports (failures and improvements observed)
-│
 └── requirements.txt             # Python package dependencies
 ```
 
