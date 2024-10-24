@@ -53,8 +53,8 @@
 ### Bug: Filter arrow is not pressable
 - **Ticket ID**: BR-003
 - **Ticket Type**: Improvement
-- **Severity**: Medium
-- **Priority**: Medium
+- **Severity**: Minor
+- **Priority**: Low
 - **Steps to Reproduce**:
   1. Navigate to the inventory page.
   2. Attempt to click the filter arrow.
@@ -68,7 +68,7 @@
 ### Bug: Shipping information not requested during checkout
 - **Ticket ID**: BR-004
 - **Ticket Type**: Bug
-- **Severity**: Major
+- **Severity**: Critical
 - **Priority**: High
 - **Steps to Reproduce**:
   1. Log in with any valid username and password (e.g., `standard_user` and `secret_sauce`).
@@ -97,7 +97,7 @@
 ### Bug: Incorrect tax calculation
 - **Ticket ID**: BR-006
 - **Ticket Type**: Bug
-- **Severity**: Major
+- **Severity**: Critical
 - **Priority**: High
 - **Steps to Reproduce**:
   1. Add products to cart.
@@ -112,7 +112,7 @@
 - **Ticket ID**: BR-007
 - **Ticket Type**: Improvement
 - **Severity**: Minor
-- **Priority**: Medium
+- **Priority**: Low
 - **Steps to Reproduce**:
   1. Click on "About" from the menu.
 - **Expected Result**: Should open in a new tab.
@@ -185,7 +185,7 @@
 - **Ticket ID**: BR-013
 - **Ticket Type**: Improvement
 - **Severity**: Minor
-- **Priority**: Medium
+- **Priority**: Low
 - **Steps to Reproduce**:
   1. Navigate to the product listing page.
   2. Click on the menu button (hamburger icon).
@@ -268,8 +268,8 @@
 ### Bug: Checkout allowed without any products in cart
 - **Bug ID**: BR-019
 - **Ticket Type**: Bug
-- **Severity**: Critical
-- **Priority**: High
+- **Severity**: Minor
+- **Priority**: Medium
 - **Steps to Reproduce**:
   1. Log in with the username `standard_user`and password `secret_sauce`.
   2. Proceed to the checkout page without adding any products to the cart.
@@ -283,8 +283,8 @@
 ### Bug: User locked out message
 - **Bug ID**: BR-020
 - **Ticket Type**: Improvement
-- **Severity**: Major
-- **Priority**: High
+- **Severity**: Minor
+- **Priority**: Low
 - **Steps to Reproduce**:
   1. Log in with the username `locked_out_user` and password `secret_sauce`.
 - **Expected Result**: The user should be informed that their account is locked, with an option to contact support.
@@ -296,7 +296,7 @@
 ### Bug: Last name input issue during checkout
 - **Bug ID**: BR-021
 - **Ticket Type**: Bug
-- **Severity**: Major
+- **Severity**: Critical
 - **Priority**: High
 - **Steps to Reproduce**:
   1. Log in with the username `problem_user` and password `secret_sauce`.
@@ -312,7 +312,7 @@
 ### Bug: Added products persist across different user logins
 - **Bug ID**: BR-022
 - **Ticket Type**: Bug
-- **Severity**: Major
+- **Severity**: Critical
 - **Priority**: High
 - **Steps to Reproduce**:
   1. Log in with the username `standard_user`.
@@ -329,7 +329,7 @@
 - **Bug ID**: BR-023
 - **Ticket Type**: Bug
 - **Severity**: Major
-- **Priority**: High
+- **Priority**: Medium
 - **Steps to Reproduce**:
   1. Log in with the username `problem_user` and password `secret_sauce`.
   2. Navigate to the product listing page.
@@ -343,7 +343,7 @@
 ### Bug: Incorrect product image and random pricing for "Sauce Labs Backpack"
 - **Ticket ID**: BR-024
 - **Ticket Type**: Bug
-- **Severity**: Major
+- **Severity**: Critical
 - **Priority**: High
 - **Steps to Reproduce**:
   1. Log in with the username `visual_user` and password `secret_sauce`.
